@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="Clothes List"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:imeOptions="actionDone"
+            android:id="@+id/edit_text"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:enabled="true"
+            android:privateImeOptions="defaultInputMode=english"
+            android:cursorVisible="true"
+            android:hint="찾고싶은 옷을 검색해보세요.">
+        </EditText>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:textFilterEnabled="true"
+        android:descendantFocusability="beforeDescendants"
+        android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</RelativeLayout>
+

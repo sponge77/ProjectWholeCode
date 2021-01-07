@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="100dp"
+            android:id="@+id/imageButton1"
+            android:onClick="onClick"
+            android:text="남성옷"
+            android:background="#D5D2C7"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="170dp"
+            android:id="@+id/imageButton2"
+            android:onClick="onClick2"
+            android:text="여성옷"
+            android:background="#DBB1B1"
+            android:textSize="20sp"
+            />
+
+    </AbsoluteLayout>
+</LinearLayout>

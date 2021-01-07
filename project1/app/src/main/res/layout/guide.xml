@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guidebackground3">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_x="100dp"
+        android:layout_y="300dp"
+        android:gravity="center_horizontal"
+        android:text="실제의 옷을 입혀보고 어울리는 옷을 선택할 수 있는 앱"
+        android:textSize="14pt" />
+    <TextView
+        
+        android:id="@+id/textView1"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_x="100dp"
+        android:layout_y="400dp"
+
+        android:text="1. 사진 찍기 → 자동으로 옷 입히기\n
+2. 앨범에서 옷 사진 업로드 → 아바타에 옷 입히기\n
+3. 배경 제거 사이트로 이동해서 배경 제거 가능\n
+4. 아바타에 옷 입히기 → 드래그, 확대, 축소\n
+5. 사용자 사진에 옷 입히기\n
+6. 앱 내부의 옷 리스트에서 옷 담아두기 기능\n
+7. 사진을 찍거나 앨범 내부에서 가져온 옷 사진을 담아두기 가능"
+
+        android:textColor="#3F51B5"
+        android:textSize="10pt"
+        />
+
+</LinearLayout>

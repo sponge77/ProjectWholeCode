@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="100dp"
+            android:background="#D5D2C7"
+            android:gravity="center"
+            android:onClick="myListener2"
+            android:textSize="20sp"
+            android:text="사용자 전신 사진찍기"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="170dp"
+            android:background="#DBB1B1"
+            android:gravity="center"
+            android:onClick="myListener3"
+            android:textSize="20sp"
+            android:text="사진 업로드" />
+
+        <Button
+            android:id="@+id/backgroundremove"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="240dp"
+            android:background="#D5D2C7"
+            android:gravity="center"
+            android:onClick="backgroundremove1"
+            android:textSize="20sp"
+            android:text="배경 제거하기"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="310dp"
+            android:background="#DBB1B1"
+            android:gravity="center"
+            android:onClick="myListener4"
+            android:textSize="20sp"
+            android:text="아바타에 입히기"/>
+
+        <Button
+        android:id="@+id/camera1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="380dp"
+        android:background="#D5D2C7"
+        android:gravity="center"
+        android:onClick="camera"
+        android:textSize="20sp"
+        android:text="사용자에 입히기"/>
+
+        <Button
+            android:id="@+id/btn_closet"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="450dp"
+            android:background="#DBB1B1"
+            android:gravity="center"
+            android:onClick="closet"
+            android:textSize="20sp"
+            android:text="옷장으로 이동"/>
+
+        <Button
+            android:id="@+id/closetmemo"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="520dp"
+            android:background="#D5D2C7"
+            android:gravity="center"
+            android:onClick="closet2"
+            android:textSize="20sp"
+            android:text="옷장 메모 기능"/>
+
+    </AbsoluteLayout>
+</FrameLayout>

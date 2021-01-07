@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/btnImage2"
+        android:text="모델 사진 불러오기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D5D2C7"/>
+    <Button
+        android:id="@+id/btnImage"
+        android:text="이미지 가져오기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DBB1B1"
+        android:layout_below="@id/img2"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/manavatar5">
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img2"
+                android:scaleType="matrix"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+</TableLayout>

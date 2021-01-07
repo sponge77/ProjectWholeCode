@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <integer-array name="resId">
+        <item>@drawable/first_test_1</item>
+        <item>@drawable/first_test_2</item>
+        <item>@drawable/first_test_3</item>
+        <item>@drawable/addtest2</item>
+        <item>@drawable/upper_test_ivory</item>
+        <item>@drawable/sky_shirt</item>
+        <item>@drawable/upper_vintage_brown</item>
+        <item>@drawable/sculptor_black</item>
+        <item>@drawable/anoblir_black</item>
+        <item>@drawable/rc_white</item>
+        <item>@drawable/rc_beige</item>
+    </integer-array>
+
+    <string-array name="explain">
+        <item>1960 MTM navy</item>
+        <item>LMC MTM gray</item>
+        <item>1960 MTM khaki</item>
+        <item>1960 MTM orange</item>
+        <item>Covernat ivory</item>
+        <item>PARTIMENTO sky blue</item>
+        <item>Costume oclock vintage brown</item>
+        <item>SCULPTOR black</item>
+        <item>ANOBLIR black</item>
+        <item>Romantic Crown white</item>
+        <item>Romantic Crown beige</item>
+    </string-array>
+
+    <integer-array name="resId2">
+        <item>@drawable/bottom_test_2</item>
+        <item>@drawable/bottom_test_4</item>
+        <item>@drawable/blue</item>
+        <item>@drawable/tapered_chino_pants</item>
+        <item>@drawable/wide_corduroy_trousers</item>
+        <item>@drawable/black_slacks</item>
+        <item>@drawable/black_wide_pants</item>
+
+    </integer-array>
+
+    <string-array name="explain2">
+        <item>gray training jean</item>
+        <item>beige jean</item>
+        <item>blue jean</item>
+        <item>white tapered chino pants</item>
+        <item>black wide corduroy trousers</item>
+        <item>black slacks</item>
+        <item>black wide pants</item>
+
+    </string-array>
+
+    <integer-array name="resId3">
+        <item>@drawable/hat_test_1</item>
+        <item>@drawable/hat_test_2</item>
+        <item>@drawable/hat_test_3</item>
+        <item>@drawable/hat_black_mlb</item>
+        <item>@drawable/hat_black_ivory</item>
+        <item>@drawable/hat_burgundy</item>
+        <item>@drawable/hat_corduroy</item>
+        <item>@drawable/hat_gray</item>
+        <item>@drawable/hat_kodak</item>
+        <item>@drawable/hat_polo</item>
+    </integer-array>
+
+    <string-array name="explain3">
+        <item>brown</item>
+        <item>adidas , black</item>
+        <item>Jeep , white</item>
+        <item>MLB , black</item>
+        <item>LOCLE , ivory and black</item>
+        <item>FM9102 , burgundy</item>
+        <item>Wild Bricks , corduroy brown</item>
+        <item>adidas , gray</item>
+        <item>Kodak , green</item>
+        <item>Polo , beige</item>
+    </string-array>
+
+
+    <integer-array name="resId4">
+        <item>@drawable/castelbajac_black</item>
+        <item>@drawable/projectm_navy</item>
+        <item>@drawable/thestori</item>
+        <item>@drawable/parti</item>
+        <item>@drawable/saintpain</item>
+        <item>@drawable/codes</item>
+        <item>@drawable/bsrbt_navy</item>
+        <item>@drawable/lf_beige</item>
+        <item>@drawable/lf_navy</item>
+
+    </integer-array>
+
+    <string-array name="explain4">
+        <item>CastelBajac black padding</item>
+        <item>Project M navy fleece</item>
+        <item>TheStori blue jacket</item>
+        <item>PARTIMENTO black leather</item>
+        <item>saintpain padding vest</item>
+        <item>codes combine beige padding</item>
+        <item>BSRBT navy</item>
+        <item>la fudge store beige anorak</item>
+        <item>la fudge store navy anorak</item>
+
+    </string-array>
+
+    <integer-array name="resId5">
+        <item>@drawable/mmlg_red</item>
+        <item>@drawable/c_white</item>
+        <item>@drawable/tnt_black</item>
+        <item>@drawable/c_surf</item>
+        <item>@drawable/rc_yellow</item>
+        <item>@drawable/coc_white</item>
+        <item>@drawable/in</item>
+        <item>@drawable/tnt_white</item>
+        <item>@drawable/fuzz_beige</item>
+        <item>@drawable/guess_yel</item>
+
+    </integer-array>
+
+    <string-array name="explain5">
+        <item>mmlg red</item>
+        <item>Covernat white</item>
+        <item>thisisneverthat black</item>
+        <item>Covernat white</item>
+        <item>Romantic Crown yellow</item>
+        <item>Costume oclock white</item>
+        <item>Mark gonzales indigo</item>
+        <item>thisisneverthat white</item>
+        <item>Fuzz beige</item>
+        <item>Guess yellow</item>
+
+    </string-array>
+
+    <integer-array name="resId6">
+        <item>@drawable/check_fleece</item>
+        <item>@drawable/red_skirt</item>
+        <item>@drawable/check_beige</item>
+        <item>@drawable/white_skirt</item>
+        <item>@drawable/blue_skirt</item>
+        <item>@drawable/colorful</item>
+        <item>@drawable/beige_skirt</item>
+
+    </integer-array>
+
+    <string-array name="explain6">
+        <item>red check fleece skrit</item>
+        <item>red</item>
+        <item>beige check</item>
+        <item>white</item>
+        <item>blue</item>
+        <item>pink</item>
+        <item>beige</item>
+
+    </string-array>
+
+    <integer-array name="resId7">
+    <item>@drawable/anderssonbell</item>
+        <item>@drawable/cargobros</item>
+        <item>@drawable/highschooldisco_ivory</item>
+        <item>@drawable/buriedalive</item>
+        <item>@drawable/highschooldisco</item>
+        <item>@drawable/snowpeak</item>
+
+    </integer-array>
+
+    <string-array name="explain7">
+        <item>Andersson Bell white </item>
+        <item>cargo bros beige</item>
+        <item>HighschoolDisco ivory</item>
+        <item>Buried Alive green</item>
+        <item>HighschoolDisco black</item>
+        <item>Snowpeak green</item>
+    </string-array>
+
+    <integer-array name="resId8">
+        <item>@drawable/vt_camel</item>
+        <item>@drawable/vt_og</item>
+        <item>@drawable/snowpeak_black</item>
+        <item>@drawable/urh</item>
+        <item>@drawable/dustindun</item>
+        <item>@drawable/ramolin_yellow</item>
+        <item>@drawable/ramolin</item>
+    </integer-array>
+
+    <string-array name="explain8">
+        <item>vegetarian table camel</item>
+        <item>vegetarian table olive green</item>
+        <item>Snowpeak black</item>
+        <item>URH brown</item>
+        <item>Dustin Dun white</item>
+        <item>Ramolin yellow</item>
+        <item>Ramolin black</item>
+    </string-array>
+</resources>

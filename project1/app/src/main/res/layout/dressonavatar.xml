@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/accesorybutton"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="100dp"
+            android:background="#D5D2C7"
+            android:gravity="center"
+            android:onClick="Accesory"
+            android:textSize="20sp"
+            android:text="모자"/>
+
+        <Button
+            android:id="@+id/clothesbutton"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="150dp"
+            android:background="#DBB1B1"
+            android:gravity="center"
+            android:onClick="clothes"
+            android:textSize="20sp"
+            android:text="옷" />
+
+
+
+
+    </AbsoluteLayout>
+</FrameLayout>

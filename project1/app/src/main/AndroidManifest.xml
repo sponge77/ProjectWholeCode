@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project1">
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:resizeable="true"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LaunchActivity">
+
+
+        <intent-filter>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+
+    </intent-filter>
+
+    </activity>
+
+
+        <activity android:name=".CameraP">
+    </activity>
+
+
+
+        <activity android:name="Start"
+            android:label="Start"></activity>
+        <activity android:name="DressOnAvatar"
+            android:label="DressOnAvatar"></activity>
+        <activity android:name="IntroClothes"
+            android:label="IntroClothes"></activity>
+        <activity android:name="Mantop"
+            android:label="Mantop"></activity>
+        <activity android:name="Manbottoms"
+            android:label="Manbottoms"></activity>
+        <activity android:name="Womantop"
+            android:label="Womantop"></activity>
+        <activity android:name="Womanbottoms"
+            android:label="Womanbottoms"></activity>
+        <activity android:name="MantopDress"
+            android:label="MantopDress"></activity>
+        <activity android:name="ManbottomsDress"
+            android:label="ManbottomsDress"></activity>
+        <activity android:name="WomantopDress"
+            android:label="WomantopDress"></activity>
+        <activity android:name="WomanbottomsDress"
+            android:label="WomanbottomsDress"></activity>
+        <activity android:name="Upload"
+            android:label="Upload"></activity>
+        <activity android:name="BackgroundRemove"
+            android:label="BackgroundRemove"></activity>
+        <activity android:name=".Camera"
+            android:label="Camera"></activity>
+        <activity android:name=".ScreenshotType"
+            android:label="ScreenshotType"></activity>
+        <activity android:name=".ScreenshotUtils"
+            android:label="ScreenshotUtils"></activity>
+        <activity android:name=".Hat"
+            android:label="Hat"></activity>
+        <activity android:name=".HatDress"
+            android:label="HatDress"></activity>
+        <activity android:name=".Test"
+            android:label="Test"></activity>
+        <activity android:name=".HatList" android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".UpperList"/>
+
+        <activity android:name=".BottomList"/>
+
+        <activity android:name=".MyClosetIntro"/>
+
+        <activity android:name=".Closet"/>
+
+        <activity android:name=".Memo"/>
+        <activity android:name=".Upload1"/>
+        <activity android:name=".ManUpload"/>
+        <activity android:name=".WomanUpload"/>
+        <activity android:name=".Guide"/>
+        <activity android:name=".ClosetActivity"></activity>
+        <activity android:name=".ClosetInsertActivity"></activity>
+        <activity android:name=".ClosetListAdapter"></activity>
+        <activity android:name=".ClosetListItem"></activity>
+        <activity android:name=".ClosetListItemView"></activity>
+        <activity android:name=".Information"></activity>
+        <activity android:name=".PhotoCapture"></activity>
+        <activity android:name=".PhotoSelection"></activity>
+        <activity android:name=".Pict"></activity>
+        <activity android:name=".Surface1"></activity>
+        <activity android:name=".UpperCategory"></activity>
+        <activity android:name=".CoatList"></activity>
+        <activity android:name=".UpperShortList"></activity>
+        <activity android:name=".BottomCategory"></activity>
+        <activity android:name=".SkirtList"></activity>
+        <activity android:name=".HatCategory"></activity>
+        <activity android:name=".BucketList"></activity>
+        <activity android:name=".BeanieList"></activity>
+
+        <provider
+            android:authorities="com.example.project1"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+    </application>
+
+</manifest>

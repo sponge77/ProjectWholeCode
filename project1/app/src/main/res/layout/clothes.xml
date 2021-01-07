@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dressavatarbtn3"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="100dp"
+            android:background="#DBB1B1"
+            android:gravity="center"
+            android:onClick="dressavatarclick3"
+            android:textSize="20sp"
+            android:text="여자 상의"
+
+            />
+
+        <Button
+            android:id="@+id/dressavatarbtn4"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="150dp"
+            android:background="#DBB1B1"
+            android:gravity="center"
+            android:onClick="dressavatarclick4"
+            android:textSize="20sp"
+            android:text="여자 하의"/>
+
+        <Button
+            android:id="@+id/dressavatarbtn1"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="200dp"
+            android:background="#D5D2C7"
+            android:gravity="center"
+            android:onClick="dressavatarclick1"
+            android:textSize="20sp"
+            android:text="남자 상의"/>
+
+        <Button
+            android:id="@+id/dressavatarbtn2"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="250dp"
+            android:background="#D5D2C7"
+            android:gravity="center"
+            android:onClick="dressavatarclick2"
+            android:textSize="20sp"
+            android:text="남자 하의"/>
+
+
+
+    </AbsoluteLayout>
+</FrameLayout>

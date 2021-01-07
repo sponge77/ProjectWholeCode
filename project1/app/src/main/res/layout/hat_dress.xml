@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "@drawable/avatarhat"
+
+    android:id="@+id/root_content5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/full_page_screenshot5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:text="공유하기"
+
+            android:textSize="20sp"
+            android:background="#DBB1B1"/>
+
+        <Button
+            android:id="@+id/urlbutton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/full_page_screenshot5"
+            android:onClick="urlbutton5"
+            android:text="판매 사이트"
+            android:background="#D5D2C7"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+
+        android:scaleType = "matrix"
+        android:id="@+id/hatimageView1"
+        />
+
+
+
+</LinearLayout>
